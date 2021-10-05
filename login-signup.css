@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none
+}
+
+li{
+    display: inline;
+    margin: 0px 10px;
+}
+
+i{
+    font-size: 2rem;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+ul{
+    padding: 5px;
+}
+
+nav{
+    border-bottom: 1px solid black;
+}
+
+.SignUp{
+    float: right;
+    padding: 8px 15px;
+    color: white;
+    background-color: tomato;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.SignUp:hover{
+    cursor: pointer;
+    color: tomato;
+    background-color: white;
+}
+
+
+
+.login{
+    float: right;
+    padding: 8px 15px;
+    color: white;
+    background-color: rgb(71, 157, 255);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.login:hover{
+    cursor: pointer;
+    color: rgb(71, 157, 255);
+    background-color: white;
+}
+
+.cards{
+    position: relative;
+    border: 0.5px solid rgba(206, 204, 204, 0.774);
+    width: 290px;
+    height: 400px;
+    margin: 20px 50px;
+    display: inline-block;
+   
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    
+}
+
+img:hover{
+    background-color:rgba(41, 39, 39, 0.548);
+    opacity: 0.5;
+}
+
+.Details{
+    position: absolute;
+    top: 14rem;
+    left: 50px;
+    text-align: center;
+}
+
+button{
+    border: 1px solid rgba(149, 149, 149, 0.692);
+    color: gray;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 40px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: orange;
+}
+
+.titleProducts{
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+span{
+    color: green;
+    font-size: larger;
+    margin: 4px 6px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+.line{
+    text-decoration: line-through;
+    color: gray;
+    font-size: smaller;
+}
+
+p{
+    margin-left: 3px;
+}
